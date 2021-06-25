@@ -1,4 +1,4 @@
-#Vagrant Installation
+# Vagrant Installation
 Need to install VirtualBox and vagrant.
 
 Please check if vagrant command is working or not by running this command
