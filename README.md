@@ -17,5 +17,5 @@ Task1:
 - Test Automation
 - IAC With Terraform
 - Pipeline in Azure DevOps / Jenkins
-- ELK Stack
+- ELK Stack for Log Management
 - Zabbix For Server Monitoring
