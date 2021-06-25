@@ -18,4 +18,4 @@ Task1:
 - IAC With Terraform
 - Pipeline in Azure DevOps / Jenkins
 - ELK Stack
-- Zabbix
+- Zabbix For Server Monitoring
