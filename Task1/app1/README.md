@@ -13,7 +13,11 @@ To select the node selector we need to label the nodes
 >kubectl label nodes hostname app1-deploy=true --overwrite
 
 **Image Deploy
-you can set the folder location to you can go to the folder and deploy Like that.
+Here we have used jenkinsfile , so create a Pipeline project and set definition "Pipeline Script From SCM"
+set your Repo URL and Script Path "JenkinsFile"
+If your repo is public, so no need for 'Credentials.'
+
+If you don't use jenkins, you can deploy Like that after logging to Kubernetes Server.
 
 >kubectl apply -f BrainStationTest/Task1/app1/deploy/app1deploy.yaml
 >kubectl apply -f BrainStationTest/Task1/app1/deploy/app1service.yaml
