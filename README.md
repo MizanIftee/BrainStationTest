@@ -15,7 +15,7 @@
 - 1 Master node and Two Worker Node.
 - Follow the README and install VM
 >Ansible:
-- Kube Master and 2 Worker Node
+- Kube Master and 2 Worker Node with flannel
 - Kube DashBoard
 - Service Account With Rbac
 
