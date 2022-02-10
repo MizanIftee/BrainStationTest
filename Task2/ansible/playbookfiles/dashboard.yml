@@ -12,7 +12,7 @@
       dest: ~/metrics-server.yaml
       mode: '0664'
 
-  - name: Apply metrics-server manifest to the cluster.
+  - name: metrics-server manifest to the cluster.
     community.kubernetes.k8s:
       state: present
       src: ~/metrics-server.yaml    

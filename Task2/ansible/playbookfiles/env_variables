@@ -22,5 +22,6 @@ ports:
 - "10250/tcp"
 
 token_file: adm_join
+
 ###################################################################################
 # Dont Edit these above values, these are mandatory to configure kubernetes cluster

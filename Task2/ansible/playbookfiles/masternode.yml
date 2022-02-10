@@ -13,7 +13,7 @@
   - name: Storing Logs for future purpose
     local_action: copy content={{ output.stdout }} dest={{ token_file }}
 
-  - name: Copying necessary files
+  - name: Copying necessary file
     shell: |
      mkdir -p $HOME/.kube
      sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config

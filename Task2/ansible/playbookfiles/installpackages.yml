@@ -45,7 +45,7 @@
      enabled: yes
     with_items: "{{ services }}"
 
-  - name: Allow Network Ports in Firewalld
+  - name: Network Ports in Firewalld
     firewalld:
      port: "{{ item }}"
      state: enabled
